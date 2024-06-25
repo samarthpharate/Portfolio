@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Pharate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2Ffavicon.jpg?alt=media&token=50c3c94f-75d7-44ec-92b6-182b6b07655b" type="image/x-icon">
+    <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2Ffavicon.jpg?alt=media&token=50c3c94f-75d7-44ec-92b6-182b6b07655b" type="image/x-icon">
+   <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fstyle.css?alt=media&token=db4ea50d-a0d0-4364-b418-c676b14a4aff">
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fcolor-1.css?alt=media&token=b02fc83c-7adb-45d1-8283-ea8fd4e1a87d">
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fstyle-switcher.css?alt=media&token=f4802a09-71da-4ac6-969e-1f0aeb211985">
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fcolor-1.css?alt=media&token=b02fc83c-7adb-45d1-8283-ea8fd4e1a87d" class="alternate-style" title="color-1" disabled>
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fcolor-2.css?alt=media&token=3516f919-5c7b-4447-9407-da72b0eb6d79" class="alternate-style" title="color-2" disabled>
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fcolor-3.css?alt=media&token=0e047b79-5de2-4835-addf-09d35dec5435" class="alternate-style" title="color-3" disabled>
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fcolor-4.css?alt=media&token=15afb77d-d190-4a64-b7a2-2aacc9de72eb" class="alternate-style" title="color-4" disabled>
+<link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FCss%2Fcolor-5.css?alt=media&token=22c6e955-52c0-4e29-82b8-1076791a97d9" class="alternate-style" title="color-5" disabled>
+</head>
+<body>
+    <main>
+<div class="main-container">
+    <div class="aside" id="aside">
+        <div class="logo">
+            <a href="#"><span>S</span>am</a>
+        </div>
+         <div class="nav-toggler">
+            <span></span>
+         </div>
+
+        <ul class="nav navbar">
+            <li><a href="#home" class="active" ><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+            <li><a href="#project"><i class="fa fa-list"></i>Project</a></li>
+            <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+            <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+             </ul>
+        </div>
+    </div>
+<div class="floating-menu-button" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="menu-drawer" id="menuDrawer">
+        <div class="menu-item" onclick="navigateTo('home'),showSection('home')"><i class="fa fa-home"></i> Home</div>
+        <div class="menu-item" onclick="navigateTo('about'),showSection('about')"><i class="fa fa-user"></i> About</div>
+        <div class="menu-item" onclick="navigateTo('project'),showSection('project')"><i class="fa fa-list"></i> Project</div>
+        <div class="menu-item" onclick="navigateTo('portfolio'),showSection('portfolio')"><i class="fa fa-briefcase"></i> Portfolio</div>
+        <div class="menu-item" onclick="navigateTo('contact'),showSection('contact')"><i class="fa fa-comments"></i> Contact</div>
+    </div>
+    <div class="main-content">
+       <section class="home section active" id="home">
+            <div class="container">
+              <div class="row">
+                <div class="home-info padd-15">
+                   <h3 class="hello">
+                    Hello, My Name is <span class="name"> Samarth Pharate</span>  </h3> 
+                    <!-- <h3 class="hello1"> -->
+                        <!-- Hello, My Name is <br><span class="name"> Samarth Pharate</span>  </h3>  -->
+                    <div class="home-img1">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2Fsamimg.jpg?alt=media&token=4d601409-e912-4440-8f5d-bd31c22d3a24" alt=""  style="height: 450px; width: auto; border-radius: 10px;"/>
+                    </div>
+                    <h3 class="my-profession" >I'm a <span class="typing">Web designer</span></h3>
+                    <p> </p>
+                    
+                    <a href="#contact" onclick="showSection('contact')" class="btn hire-me">Hire Me</a>
+                    <br>
+                    <br>
+                    <div class="social-icons">
+        <a href="https://github.com/samarthpharate" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/samarth_pharate_96k" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/samarth-pharate-873b23259" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:samarthpharate96@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>   
+                </div>
+                <div class="home-img padd-15">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2Fsamimg.jpg?alt=media&token=4d601409-e912-4440-8f5d-bd31c22d3a24" alt="">
+                </div>
+              </div>  
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="row"> 
+                    <div class="section-title  padd-15">
+                        <h2>About Me</h2>
+                    </div>                   
+                </div>
+                <div class="row">
+                    <div class="about-content padd-15">
+                       <div class="row">
+                        <div class="about-text padd-15">
+                          <h3>I'm Samarth Pharate a <span>Frontend Developer</span></h3>  
+                          <p> I'm a Frontend Developer with extensive experience for over 2 years. My expertise is to Design a Websites, Graphics, Photos-videos editing and also have much more knowledge of Photoshop.</p>
+                        </div>
+                       </div>
+                       <div class="row">
+                        <div class="personal-info padd-15">
+                            <div class="row">
+                                <div class="info-item  padd-15">
+
+                                    <p>Birthday :<span>04 nov 2004</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+
+                                    <p>Age :<span>20</span></p>
+                                </div>
+                                <div class="info-item padd-15">                                    <p>Email :<span>samarthpharate96@gmail.com</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Degree :<span>CS</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>What's App :<span>+91 83 0844 9850</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>City :<span>Pune , Hadpser</span></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="buttons padd-15">
+                                    <a href="#" class="btn">Download CV</a>
+                                    <a href="#contact" onclick="showSection('contact')" class="btn hire-me">Hire Me</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills padd-15">
+                            <div class="row">
+                                <div class="skill-item padd-15">
+                                    <h5>JS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 63%;"></div>
+                                        <div class="skill-percent">63%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 66%;"></div>
+                                        <div class="skill-percent">66%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 86%;"></div>
+                                        <div class="skill-percent">86%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>PHOTOSHOP</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 91%;"></div>
+                                        <div class="skill-percent">91%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>FIREBASE</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 76%;"></div>
+                                        <div class="skill-percent">76%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>PYTHON</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 60%;"></div>
+                                        <div class="skill-percent">60%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>MYSQL</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 70%;"></div>
+                                        <div class="skill-percent">70%</div>
+                                    </div>
+                                </div>
+                                <div class="skill-item padd-15">
+                                    <h5>C</h5>
+                                    <div class="progress">
+                                        <div class="progress-in" style="width: 60%;"></div>
+                                        <div class="skill-percent">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="row">
+                        <div class="education padd-15">
+                            <h3 class="title">Education</h3>
+                            <div class="row">
+                                <div class="timeline-box padd-15">
+                                    <div class="timeline .shadow-dark">
+                                      <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+
+                                        <h3 class="timeline-date">
+                                           <i class="fa fa-calendar"></i> 2019 - 2020
+                                        </h3>
+                                        <h4 class="timeline-title">Maharashtra Board Class 10th Exam</h4>
+                                        <p class="timeline-text">I had completed my SSC Bord exam with 79%.</p>
+                                      </div>
+                                      <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+
+                                        <h3 class="timeline-date">
+                                           <i class="fa fa-calendar"></i> 2021 - 2022
+                                        </h3>
+                                        <h4 class="timeline-title">Maharashtra Board Class 12th Exam in Science </h4>
+                                        <p class="timeline-text">I had completed my HSC Bord exam with 63% with Science (PCM Group).</p>
+                                      </div>
+                                      <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+
+                                        <h3 class="timeline-date">
+                                           <i class="fa fa-calendar"></i> 2020 - 2021
+                                        </h3>
+                                        <h4 class="timeline-title">Extra Activities </h4>
+                                        <p class="timeline-text">I also have a knowledge about other things like Tally ,MS-CIT ,typing ,CCC ,Website development , C (Programing Language), js , css , html , python , postgressSQL , mysql, photoshop.</p>
+                                      </div>
+                                      <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+
+                                        <h3 class="timeline-date">
+                                           <i class="fa fa-calendar"></i> 2022 - 2023
+                                        </h3>
+                                        <h4 class="timeline-title">Computer Science</h4>
+                                        <p class="timeline-text">As a Graduation course I hade selected BCS (Computer Science) after 12th. </p>
+                                      </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="experience padd-15">
+                            <h3 class="title">Experience</h3>
+                            <div class="row">
+                                <div class="timeline-box padd-15">
+                                    <div class="timeline .shadow-dark">
+                                      <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+
+                                        <h3 class="timeline-date">
+                                           <i class="fa fa-calendar"></i> 2022 -2024
+                                        </h3>
+                                        <h4 class="timeline-title">Web develop</h4>
+                                        <p class="timeline-text">I have a 2 year experience for Web development and Designed many sites at collage time and also projects, also have a knowledge of PC assembling, requiered knowledge of Hardware and Software</p>
+                                      </div>
+
+                                      <div class="timeline-item">
+                                        <div class="circle-dot"></div>
+
+                                        <h3 class="timeline-date">
+                                           <i class="fa fa-calendar"></i> 2022 - 2023
+                                        </h3>
+                                        <h4 class="timeline-title">JOB Experience</h4>
+                                        <p class="timeline-text"> I have a 1 year job experience in network feild. </p>
+                                      </div>
+
+                                      <div class="timeline-item">
+                                      </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div> 
+            </div>
+</section>
+<section class="portfolio section" id="project">
+    <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h2> Projects </h2>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="p-image">
+                       <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2FNeonAI.jpg?alt=media&token=48b3fa0b-e7e6-4056-8f73-32c941bffe9f" alt="Neon"/>
+                    </div>
+                    <h4>Neon-AI <a href="https://github.com/gauravprajapati23/Neon09"><i class="fas fa-link"></i></a></h4>
+                    <p>A Python based project on AI assistant for college projects made by our group.</p>
+                </div>
+            </div>
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="p-image">
+                       <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2FSpotify%20Clone.jpg?alt=media&token=1067c6ba-64e0-4a9e-a600-d094c9dbb634" alt="Spotify Clone"/>
+                    </div>
+                    <h4>Spotify Clone<a href="https://samarthpharate.github.io/spotify-clone/"><i class="fas fa-link"></i></a></h4>
+                    <p>I Created this website while learning the web development.</p>
+                </div>
+            </div>
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="p-image">
+                       <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2FELibrary.jpg?alt=media&token=a3570018-8c53-47b4-a5cc-8e131b9a92bd" alt="E-library"/>
+                    </div>
+                    <h4>E-Library <a href="https://e-library-09.web.app"><i class="fas fa-link"></i></a></h4>
+                    <p>This site was created to help students for reading books of there subject.</p>
+                </div>
+            </div>            
+        </div>
+</section>
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h2> Portfolio</h2>
+                </div>
+                <br>
+                <br>
+                <br>
+                <h4>"There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies." - C.A.R. Hoare</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="icon">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" ><i class="fa-brands fa-js"></i></a>
+                    </div>
+                    <h4>Java Script </h4>
+                    <p>JavaScript, often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99% of websites use JavaScript on the client side for webpage behavior.</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="icon">
+                        <a href="https://www.w3schools.com/css/" > <i class="fa-brands fa-css3"></i></a>
+                    </div>
+                    <h4>CSS</h4>
+                    <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML.</p>
+                </div>
+            </div>
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="icon">
+                        <a href="https://www.w3.org/html/"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                    <h4>HTML</h4>
+                    <p>HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.</p>
+                </div>
+            </div>
+            <div class="portfolio-item padd-15">
+                <div class="portfolio-item-inner">
+                    <div class="icon">
+                        
+                        <a href="https://www.python.org"><i class="fa-brands fa-python"></i></a>
+                    </div>
+                    <h4>PYTHON</h4>
+                    <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+                </div>
+            </div>           
+        </div>
+</section>
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <h3 class="contact-title padd-15"> Have You Any Questions ?</h3>
+                <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+               
+                <div class="row">
+                    <div class="contact-info-item padd-15">
+                       <div class="icon"> <i class="fa fa-phone"></i></div> 
+                       <h4>Call US On</h4>
+                       <p>+91 83 0844 9850</p>
+                    </div>
+
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"> <i class="fa fa-envelope"></i></div> 
+                        <h4>Email</h4>
+                        <a href="mailto: samarthpharate96@gmail.com"><p>samarthpharate96@gmail.com</p></a>
+                     </div>
+                     <div class="contact-info-item padd-15">
+                        <div class="icon"> <i class="fa-brands fa-square-instagram"></i></div> 
+                        <h4>Insta</h4>
+                       <a href="https://www.instagram.com/samarth_pharate_96k/"><p>samarth_pharate_96k</p></a>
+                     </div>
+                     <div class="contact-info-item padd-15">
+                        <div class="icon"> <i class="fa-brands fa-linkedin"></i></div> 
+                        <h4>Linkedin</h4>
+                       <a href="https://www.linkedin.com/in/samarth-pharate-873b23259/"><p>Samarth Pharate </p></a>
+                     </div>
+
+                </div>
+                <h3 class="contact-title padd-15"> SEND ME AN EMAIL</h3>
+                <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
+                <div class="row">
+                    <div class="contact-form padd-15">
+                        <form  id="contact-form" action="https://formsubmit.co/samarthpharate96@gmail.com" method="POST">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                               <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                               </div> 
+                            </div>
+
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group">
+                                 <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                                </div> 
+                             </div>
+                             <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                 <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                                </div> 
+                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                <textarea name="message" class="form-control" id="message"  placeholder="Message"></textarea>
+                                </div> 
+                             </div>
+                             <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2Fthanku.html?alt=media&token=858cbcfe-c088-4366-8206-5cd760a04b25"
+              />
+                        </div> 
+
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                               <button type="submit" class="btn"> Send Message</button>
+                             </div>
+
+                        </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+</section>
+    </div>
+</div>
+    </main>
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+           <i class="fas fa-cog fa-spin"></i> 
+        </div>
+        <div class="day-night s-icon">
+            <i class=" fas fa-moon"></i>  
+        </div>
+        <h4>Theme Colors</h4>
+    <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+    </div>    
+    <script src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FJs%2Fscript.js?alt=media&token=e876f65f-9634-4e61-9369-7d85646547e5"></script>
+    <script src="https://kit.fontawesome.com/3201025ee1.js" crossorigin="anonymous"></script>
+    <script src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FJs%2Fstyle-switcher.js?alt=media&token=3fdb6bb3-7b1b-4d9d-9699-0d5139024fb6"></script>
+</body>
+</html>
